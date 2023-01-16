@@ -1,10 +1,19 @@
 import React from "react";
-
-function Note() {
+import { DELETE } from "./redux/actions/index.js";
+import { useDispatch } from "react-redux";
+import DeleteIcon from "@mui/icons-material/Delete";
+function Note(props) {
+  const dispatch = useDispatch();
+  const DeleteHandler = (e) => {
+    dispatch(DELETE(e));
+  };
   return (
     <div className="note">
-      <h1>This is the note title</h1>
-      <p>This is the note content</p>
+      <h1>{props.title}</h1>
+      <p>{props.content}</p>
+      <button onClick={() => DeleteHandler(props.id)}>
+        <DeleteIcon />
+      </button>
     </div>
   );
 }
