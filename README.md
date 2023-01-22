@@ -27,11 +27,10 @@ React, Redux, Material Ui, Firebase Hosting
 
 ## Screenshots
 
-![Demo]('./src/assets/screenshots/4.gif')
-
 <img src="./src/assets/screenshots/1.png" width="500"> <br>
 <img src="./src/assets/screenshots/2.png" width="500"> <br>
 <img src="./src/assets/screenshots/3.png" width="500"> <br>
+![Demo](https://github.com/SHAILESH-KOLAP/keeper/blob/main/src/assets/screenshots/4.gif?raw=true)
 
 <!-- ![Alt text](/src/assets/screenshots/1.png?raw=true "Home")
 ![Alt text](/src/assets/screenshots/2.png?raw=true "Cart")
